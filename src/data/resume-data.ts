@@ -44,11 +44,12 @@ export const RESUME_DATA: ResumeData = {
       start: "2025",
       end: null,
       description:
-        "Accompagnement des équipes de développement dans la transformation de leurs application vers le cloud privé Euro Information",
+        "Accompagnement des équipes de développement pour la migrations des 16 000 applications du groupe vers le cloud privé Euro Information",
       highlights: [
-        "Application des décisions d'architecture d'entreprise",
-        "Approche DevSecOps sur le développement, l'intégration et le déploiement",
-        "Exploitation et monitoring des microservices sous OpenShift",
+        "Implication dans les décisions d'architecture en vigueur dans l'entreprise",
+        "Sensibilisation des développeurs sur les problématiques liées au Cloud",
+        "Rigueur et organisation pour le suivi d'une centaine de projets de migration en parralèle",
+        "Développement d'une Web App permettant le suivi et la planification des projets de migration à destination de tout le groupe"
       ],
     },
     {
@@ -59,10 +60,11 @@ export const RESUME_DATA: ResumeData = {
       start: "2022",
       end: "2025",
       description:
-        "Développement des parcours d'entrée en relation en ligne permettant l'ouverture de compte bancaire",
+        "Développement des parcours d'ouverture de compte bancaire à destination des prospects",
       highlights: [
-        "Intégration d'une API de validation de l'identité par Selfie avec des partenaires externes",
-        "Monitoring des performances et du taux de conversion des parcours avec stratégie Canary",
+        "Intégration d'une API de validation de l'identité par Selfie avec un partenaire externe",
+        "Monitoring des performances et du taux de conversion des parcours avec stratégie Canary Deployment",
+        "Utilisation des pratiques de Clean Code dans un projet avec plusieurs développeurs"
       ],
     },
     {
@@ -76,8 +78,8 @@ export const RESUME_DATA: ResumeData = {
         "Développement d'une application permettant la signature électronique qualifée",
       highlights: [
         "Intégration de l'API LuxTrust permettant la génération de signatures",
-        "Création d'un frontend permettant la signature par tous les employés",
-        "Développement de l'API et du schéma de données permettant le stockage des données",
+        "Création d'un frontend et d'une API permettant la signature par tous les employés",
+        "Application des normes de sécurité en vigueur sur la signature électronique",
       ],
     },
   ],
