@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Strasbourg",
   about: "Ingénieur Full Stack",
   summary:
-    "Ingénieur Full Stack. 5 années d'expérience dans le secteur bancaire. Conception et développement d'applications robustes, sécurisées et performantes. Formation continue sur les technologies du Cloud.",
+    "Ingénieur Full Stack. 5 années d'expérience dans le secteur bancaire. Conception et développement d'applications robustes, sécurisées et performantes. Formation continue sur les pratiques et technologies du Cloud.",
   avatarUrl: "https://avatars.githubusercontent.com/u/47631598?v=4",
   personalWebsiteUrl: "https://theodurr.fr",
   contact: {
