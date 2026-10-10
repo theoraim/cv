@@ -56,12 +56,12 @@ export function generateWebPageStructuredData() {
     "@type": "WebPage",
     name: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    url: "https://cv.jarocki.me",
-    inLanguage: "en-US",
+    url: "https://theodurr.fr",
+    inLanguage: "fr-FR",
     isPartOf: {
       "@type": "WebSite",
-      name: `${RESUME_DATA.name}'s Professional Resume`,
-      url: "https://cv.jarocki.me",
+      name: `CV de ${RESUME_DATA.name}`,
+      url: "https://theodurr.fr",
     },
     about: {
       "@type": "Person",
@@ -81,8 +81,8 @@ export function generateResumeStructuredData() {
     dateModified: new Date().toISOString(),
     mainEntity: person,
     about: person,
-    name: `${RESUME_DATA.name} - Professional Resume`,
-    description: `Professional resume and portfolio of ${RESUME_DATA.name}, ${RESUME_DATA.about}`,
-    url: "https://cv.jarocki.me",
+    name: `${RESUME_DATA.name} - CV Professionnel`,
+    description: `CV Professionnel de ${RESUME_DATA.name}, ${RESUME_DATA.about}`,
+    url: "https://theodurr.fr",
   };
 }

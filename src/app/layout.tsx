@@ -9,7 +9,7 @@ import { ErrorBoundary } from "@/components/error-boundary";
 import { RESUME_DATA } from "@/data/resume-data";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cv.jarocki.me"),
+  metadataBase: new URL("https://theodurr.fr"),
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,
@@ -22,9 +22,11 @@ export const metadata: Metadata = {
     RESUME_DATA.name,
     "software engineer",
     "full stack developer",
-    "react",
-    "next.js",
-    "typescript",
+    "cloud",
+    "kubernetes",
+    "dotnet",
+    "go",
+    "fintech"
   ],
   authors: [{ name: RESUME_DATA.name }],
   creator: RESUME_DATA.name,
@@ -52,12 +54,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
-    description: RESUME_DATA.about,
-    creator: "@BartoszJarocki",
   },
   alternates: {
     canonical: RESUME_DATA.personalWebsiteUrl,
