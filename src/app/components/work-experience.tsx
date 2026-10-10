@@ -52,7 +52,7 @@ function WorkPeriod({ start, end }: WorkPeriodProps) {
       className="text-sm tabular-nums text-gray-500"
       title={`Employment period: ${start} to ${end ?? "Present"}`}
     >
-      {start} - {end ?? "Present"}
+      {start} - {end ?? "Aujourd'hui"}
     </div>
   );
 }
@@ -144,7 +144,7 @@ export function WorkExperience({ work }: WorkExperienceProps) {
   return (
     <Section>
       <h2 className="text-xl font-bold" id="work-experience">
-        Work Experience
+        Expérience Professionnelle
       </h2>
       <div
         className="space-y-4 print:space-y-0"
