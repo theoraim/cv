@@ -49,7 +49,7 @@ export const RESUME_DATA: ResumeData = {
         "Implication dans les décisions d'architecture en vigueur dans l'entreprise",
         "Sensibilisation des développeurs sur les problématiques liées au Cloud",
         "Rigueur et organisation pour le suivi d'une centaine de projets de migration en parralèle",
-        "Développement d'une Web App permettant le suivi et la planification des projets de migration à destination de tout le groupe"
+        "Développement d'une Web App permettant le suivi et la planification des projets de migration à destination de tout le groupe",
       ],
     },
     {
@@ -64,7 +64,7 @@ export const RESUME_DATA: ResumeData = {
       highlights: [
         "Intégration d'une API de validation de l'identité par Selfie avec un partenaire externe",
         "Monitoring des performances et du taux de conversion des parcours avec stratégie Canary Deployment",
-        "Utilisation des pratiques de Clean Code dans un projet avec plusieurs développeurs"
+        "Utilisation des pratiques de Clean Code dans un projet avec plusieurs développeurs",
       ],
     },
     {

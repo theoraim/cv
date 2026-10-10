@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "kubernetes",
     "dotnet",
     "go",
-    "fintech"
+    "fintech",
   ],
   authors: [{ name: RESUME_DATA.name }],
   creator: RESUME_DATA.name,
