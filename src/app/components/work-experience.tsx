@@ -49,7 +49,7 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500"
+      className="font-mono text-xs tabular-nums text-gray-500"
       title={`Employment period: ${start} to ${end ?? "Present"}`}
     >
       {start} - {end ?? "Aujourd'hui"}
@@ -95,7 +95,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
     <Card className="border-none py-1 print:py-0">
       <CardHeader className="print:space-y-1">
         <div className="flex items-center justify-between gap-x-2 text-base">
-          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
+          <h3 className="font-mono inline-flex items-center justify-center gap-x-1 leading-none print:text-sm">
             <CompanyLink company={company} link={link} />
             <BadgeList
               className="hidden gap-x-1 sm:inline-flex"
@@ -105,7 +105,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
           <WorkPeriod start={start} end={end} />
         </div>
 
-        <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px]">
+        <h4 className="font-mono text-sm text-gray-700 leading-none print:text-[12px]">
           {title}
         </h4>
       </CardHeader>

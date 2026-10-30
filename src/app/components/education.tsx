@@ -15,7 +15,7 @@ interface EducationPeriodProps {
 function EducationPeriod({ start, end }: EducationPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500"
+      className="font-mono text-xs tabular-nums text-gray-500"
       title={`Period: ${start} to ${end}`}
     >
       {start} - {end}
@@ -38,7 +38,7 @@ function EducationItem({ education }: EducationItemProps) {
     <Card className="border-none">
       <CardHeader>
         <div className="flex items-center justify-between gap-x-2 text-base">
-          <h3 className="font-semibold leading-none" id={schoolId}>
+          <h3 className="font-mono leading-none" id={schoolId}>
             {school}
           </h3>
           <EducationPeriod start={start} end={end} />
