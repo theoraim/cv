@@ -93,7 +93,7 @@ export const RESUME_DATA: ResumeData = {
     "DevSecOps",
     "Terraform/Opentofu",
     "Ansible",
-    "Collaboration en équipe"
+    "Collaboration en équipe",
   ],
   projects: [],
 } as const;

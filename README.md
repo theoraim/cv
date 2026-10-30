@@ -1,9 +1,5 @@
 <h1>minimalist cv</h1>
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-
 simple web app that renders a minimalist CV with print-friendly layout.
 
 ## getting started
@@ -77,9 +73,8 @@ styling uses tailwind css — customize colors in `tailwind.config.js` and globa
 ## docker
 
 ```bash
-docker compose build     # build the container
-docker compose up -d     # run the container
-docker compose down      # stop the container
+docker buildx build --platform=linux/amd64,linux/amd64/v2,linux/arm64 -t git.theoraime.com/theoraime/cv:latest .
+docker push git.theoraime.com/theoraime/cv:latest
 ```
 
 ## license
