@@ -16,8 +16,8 @@ export const RESUME_DATA: ResumeData = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/theoraim",
-        icon: "github",
+        url: "https://git.theoraime.com/theoraime",
+        icon: "git",
       },
       {
         name: "LinkedIn",
